@@ -1,8 +1,8 @@
 package Tiempo;
 
-public class Decimas extends Contador{
-    public Decimas(){
-        posicion = 100;
+public class Centesimas extends Contador{
+      public Centesimas(){
+        posicion = 10;
     }
     
     @Override

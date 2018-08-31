@@ -6,12 +6,12 @@ public class Segundos extends Contador{
     }
     @Override
     public int contar(){
-        for(int j=0;j<1000;j++){
+        for(int j=0;j<9;j++){
             for(int i=0;i<posicion;i++){
                 unidad();
                 this.tiempo++;
             }
-            unidad = unidad++;
+            unidad++;
         }    
         return unidad;
     }

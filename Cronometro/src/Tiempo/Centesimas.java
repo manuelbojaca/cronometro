@@ -7,7 +7,7 @@ public class Centesimas extends Contador{
     
     @Override
     public int contar(){
-        unidad = this.tiempo / posicion;
+        unidad = getTiempo() / posicion;
         return unidad; 
     }
 }
